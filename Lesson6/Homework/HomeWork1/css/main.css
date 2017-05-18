@@ -1,0 +1,23 @@
+﻿@import 'bootstrap.css';
+ 
+#main{
+    margin-top:50px;
+    text-align:center;
+}
+ul{
+    list-style-type:none;
+}
+li{
+    display:inline-block;
+    padding:20px;   
+
+}
+.list li{
+    display:block;
+    width:100%;
+    text-align:left;
+    padding-right:200px;
+}
+th{
+    text-align:center;        
+}

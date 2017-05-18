@@ -1,0 +1,57 @@
+﻿@import 'bootstrap.css';
+
+.single-table td,.single-table th{
+    padding:15px !important;
+
+} 
+.width_half{
+    width:50% !important;
+}
+#main{
+    margin-top:50px;
+    text-align:center;
+    overflow-x:hidden;
+}
+ul{
+    list-style-type:none;
+}
+li{
+    display:inline-block;
+    padding:20px;   
+}
+.list li{
+    display:block;
+    width:100%;
+    text-align:left;
+    padding-right:200px;
+}
+th{
+    text-align:center;        
+}
+.margin_25_percent{
+    margin-left:25%;
+}
+.custom-row div{
+    position:absolute;
+}
+
+.views-enter{
+    position:absolute;
+    opacity:0.05;
+    margin-left:-10%;
+}
+.views-enter-active{
+    position:absolute;
+    margin-left:25%;
+    opacity:1;
+    transition: all 1s;
+}
+.views-leave{
+    position:absolute;
+    opacity:0.01;
+}
+.views-leave-active{
+     position:absolute;
+     opacity:0.01;
+     transition:all 400ms;
+}
